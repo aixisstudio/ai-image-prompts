@@ -39,6 +39,40 @@ neon sign reading "OPEN SOURCE" in cursive, dark wall background, night photogra
 - Negative prompts (SD): `blurry, watermark, extra fingers, text artifacts`
 - Iterate seeds, not words — small word changes beat wholesale rewrites
 
+## 🎨 Style keywords cheat-sheet
+
+| Effect | Keywords |
+|---|---|
+| Photoreal | `photorealistic, 85mm, f/1.8, natural light` |
+| Filmic | `cinematic still, anamorphic, Kodak Portra` |
+| 3D | `octane render, subsurface scattering, studio HDRI` |
+| Illustrated | `flat vector, limited palette, editorial illustration` |
+| Vintage | `1970s photograph, film grain, faded colors` |
+
+## ⚙️ Midjourney params
+
+| Param | Does |
+|---|---|
+| `--ar 16:9` | Aspect ratio |
+| `--stylize 250` | Artistic freedom (0-1000) |
+| `--chaos 30` | Variation between grid |
+| `--no text, watermark` | Negative prompt |
+| `--style raw` | Less MJ-opinionated |
+| `--cref [url]` | Character reference |
+| `--sref [url]` | Style reference |
+
+## 🖼️ Composition vocab
+
+`rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour` · `chiaroscuro`
+
+## 🧩 Tools
+
+- **Flux** — open weights, best typography
+- **SDXL/SD3.5** — customizable via LoRAs
+- **ComfyUI** — node-graph control
+- **InvokeAI** — polished local UI
+- **Fooocus** — dead-simple SDXL
+
 ---
 Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
 
