@@ -4,76 +4,74 @@
 
 图像生成提示词画廊 — Midjourney、SD、Flux
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
+# # # 即时画廊 #
 
-## 🖼️ The prompt gallery
+可复制带有目标模型的提示. 通过PR向`prompts.md`贡献自己的力量.
 
-Copyable prompts with target models. Contribute your own via PR to `prompts.md`.
-
-## 🎨 Styles that work
-| Style | Prompt fragment |
+□ □ 工作样式
+QQ 样式 QQ 提示片段 QQ
 |---|---|
-| Photo | `shot on 35mm, golden hour, shallow depth of field, kodak portra` |
-| Illustration | `flat vector illustration, bold shapes, limited palette` |
-| 3D | `octane render, isometric, soft studio lighting` |
-| Pixel | `16-bit pixel art, limited color palette, crisp outlines` |
-| Editorial | `magazine cover layout, dramatic lighting, high contrast` |
+图片: `shot on 35mm, golden hour, shallow depth of field, kodak portra`
+说明 `flat vector illustration, bold shapes, limited palette`
+三维 `octane render, isometric, soft studio lighting`
+# # 像素 # # `16-bit pixel art, limited color palette, crisp outlines` # # # #
+• `magazine cover layout, dramatic lighting, high contrast`编辑
 
-## 🧪 Example prompts
+□ □ □ 示例提示
 
-**Midjourney**
+** 杂项**
 ```
 a lighthouse on a cliff in fog, muted blues and greys, editorial photography, moody --ar 16:9 --v 6
 ```
 
-**SDXL / Flux**
+** SDXL / 流量**
 ```
 minimalist workspace, warm morning light through blinds, a designer's desk with notebook and laptop, 85mm, soft shadows, photorealistic
 ```
 
-**Ideogram (text)**
+** 图像(文本)**
 ```
 neon sign reading "OPEN SOURCE" in cursive, dark wall background, night photography
 ```
 
-## 📐 Tips
-- Aspect ratio params (`--ar`) on Midjourney; for SDXL set dimensions directly
-- Negative prompts (SD): `blurry, watermark, extra fingers, text artifacts`
-- Iterate seeds, not words — small word changes beat wholesale rewrites
+#####小费
+- 中途岛的光谱比参数(`--ar`);直接用于SDXL设定维度
+- 负提示( SD): `blurry, watermark, extra fingers, text artifacts`
+- 斜体种子,不是单词——小字变化比批发重写
 
-## 🎨 Style keywords cheat-sheet
+# # # # 样式关键词欺骗表
 
-| Effect | Keywords |
+效果 关键词
 |---|---|
-| Photoreal | `photorealistic, 85mm, f/1.8, natural light` |
-| Filmic | `cinematic still, anamorphic, Kodak Portra` |
-| 3D | `octane render, subsurface scattering, studio HDRI` |
-| Illustrated | `flat vector, limited palette, editorial illustration` |
-| Vintage | `1970s photograph, film grain, faded colors` |
+照片真实 `photorealistic, 85mm, f/1.8, natural light`
+电影 `cinematic still, anamorphic, Kodak Portra`
+三维 `octane render, subsurface scattering, studio HDRI`
+`flat vector, limited palette, editorial illustration` 请检查date=中的日期值 (帮助)
+`1970s photograph, film grain, faded colors` 请检查access-date=中的日期值 (帮助)
 
-## ⚙️ Midjourney params
+□□□□ 中途岛抛物
 
-| Param | Does |
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}你觉得呢?
 |---|---|
-| `--ar 16:9` | Aspect ratio |
-| `--stylize 250` | Artistic freedom (0-1000) |
-| `--chaos 30` | Variation between grid |
-| `--no text, watermark` | Negative prompt |
-| `--style raw` | Less MJ-opinionated |
-| `--cref [url]` | Character reference |
-| `--sref [url]` | Style reference |
+`--ar 16:9` 光谱比
+* `--stylize 250` 艺术自由(0-1000) *
+`--chaos 30` 网格之间的变化
+`--no text, watermark` 负速率
+`--style raw` 减 MJ - opinion
+`--cref [url]` 字符参考
+`--sref [url]` 样式参考
 
-## 🖼️ Composition vocab
+□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
 
-`rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour` · `chiaroscuro`
+`rule of thirds` → `negative space` → `leading lines` → `dutch angle` → `low-angle hero shot` → `macro detail` → `rim lighting` → `golden hour` → `blue hour` → `chiaroscuro`
 
-## 🧩 Tools
+##### 工具
 
-- **Flux** — open weights, best typography
-- **SDXL/SD3.5** — customizable via LoRAs
-- **ComfyUI** — node-graph control
-- **InvokeAI** — polished local UI
-- **Fooocus** — dead-simple SDXL
+- **Flux**——开放重量,最佳排印
+- **SDXL/SD3.5**——可通过LORAs定制
+- **ComfyUI**——节点控制
+-**InvokeAI**——当地UI磨损
+- ** Fooocus** - 死气沉沉的SDXL
 
 ---
 ## 贡献
