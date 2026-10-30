@@ -4,76 +4,74 @@
 
 画像生成プロンプト集
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+## 中国のプロンプトギャラリー
 
-## 🖼️ The prompt gallery
+ターゲットモデルでコピー可能なプロンプト。 `prompts.md` に PR で自分に貢献します。
 
-Copyable prompts with target models. Contribute your own via PR to `prompts.md`.
-
-## 🎨 Styles that work
-| Style | Prompt fragment |
+## 働くスタイル
+| スタイル | プロンプト |
 |---|---|
-| Photo | `shot on 35mm, golden hour, shallow depth of field, kodak portra` |
-| Illustration | `flat vector illustration, bold shapes, limited palette` |
-| 3D | `octane render, isometric, soft studio lighting` |
-| Pixel | `16-bit pixel art, limited color palette, crisp outlines` |
-| Editorial | `magazine cover layout, dramatic lighting, high contrast` |
+| 写真 | `shot on 35mm, golden hour, shallow depth of field, kodak portra` |
+| イラスト | `flat vector illustration, bold shapes, limited palette` |
+| 3D | `octane render, isometric, soft studio lighting` | 3D | 3D | `octane render, isometric, soft studio lighting` | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 4D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 4D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D
+| ピクセル | `16-bit pixel art, limited color palette, crisp outlines` |
+| 編集 | `magazine cover layout, dramatic lighting, high contrast` |
 
-## 🧪 Example prompts
+## 🧪 例プロンプト
 
-**Midjourney**
+**シドニー**
 ```
 a lighthouse on a cliff in fog, muted blues and greys, editorial photography, moody --ar 16:9 --v 6
 ```
 
-**SDXL / Flux**
+**SDXL/変化**
 ```
 minimalist workspace, warm morning light through blinds, a designer's desk with notebook and laptop, 85mm, soft shadows, photorealistic
 ```
 
-**Ideogram (text)**
+**イデグラム(テキスト)**
 ```
 neon sign reading "OPEN SOURCE" in cursive, dark wall background, night photography
 ```
 
-## 📐 Tips
-- Aspect ratio params (`--ar`) on Midjourney; for SDXL set dimensions directly
-- Negative prompts (SD): `blurry, watermark, extra fingers, text artifacts`
-- Iterate seeds, not words — small word changes beat wholesale rewrites
+## 📐のヒント
+- MidjourneyのAspectの比率のparams (`--ar`);SDXLセット次元のために直接
+- 負のプロンプト(SD): `blurry, watermark, extra fingers, text artifacts`
+- 種子を反復し、言葉ではなく - 小さな単語は卸売の書き換えを打ちます
 
-## 🎨 Style keywords cheat-sheet
+## トレンドスタイルキーワードチートシート
 
-| Effect | Keywords |
+| 効果 | キーワード |
 |---|---|
-| Photoreal | `photorealistic, 85mm, f/1.8, natural light` |
-| Filmic | `cinematic still, anamorphic, Kodak Portra` |
-| 3D | `octane render, subsurface scattering, studio HDRI` |
-| Illustrated | `flat vector, limited palette, editorial illustration` |
-| Vintage | `1970s photograph, film grain, faded colors` |
+| フォトリアル | `photorealistic, 85mm, f/1.8, natural light` |
+| 映画 | `cinematic still, anamorphic, Kodak Portra` |
+| 3D | `octane render, subsurface scattering, studio HDRI` | 3D | 3D | `octane render, subsurface scattering, studio HDRI` | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 4D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 4D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 3D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D | 4D
+| イラスト | `flat vector, limited palette, editorial illustration` |
+| ヴィンテージ | `1970s photograph, film grain, faded colors` |
 
-## ⚙️ Midjourney params
+## ⚙ ️ ️
 
-| Param | Does |
+| パラム | はく | はく |
 |---|---|
-| `--ar 16:9` | Aspect ratio |
-| `--stylize 250` | Artistic freedom (0-1000) |
-| `--chaos 30` | Variation between grid |
-| `--no text, watermark` | Negative prompt |
-| `--style raw` | Less MJ-opinionated |
-| `--cref [url]` | Character reference |
-| `--sref [url]` | Style reference |
+| `--ar 16:9` | アスペクト比 |
+| `--stylize 250` | 芸術的自由(0-1000) |
+| `--chaos 30` | 格子のバリエーション |
+| `--no text, watermark` | ネガティブ・プロンプト |
+| `--style raw` | 少ないMJ-opinionated |
+| `--cref [url]` | キャラクターリファレンス |
+| `--sref [url]` | スタイルリファレンス |
 
-## 🖼️ Composition vocab
+## ️️ コンポジション vocab
 
-`rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour` · `chiaroscuro`
+`rule of thirds`・`negative space`・`leading lines`・`dutch angle`・`low-angle hero shot`・`macro detail`・`rim lighting`・`golden hour`・`blue hour`・`chiaroscuro`
 
-## 🧩 Tools
+## 🧩 ツール
 
-- **Flux** — open weights, best typography
-- **SDXL/SD3.5** — customizable via LoRAs
-- **ComfyUI** — node-graph control
-- **InvokeAI** — polished local UI
-- **Fooocus** — dead-simple SDXL
+-**Flux** - オープン重量、最高のタイポグラフィ
+- **SDXL/SD3.5** — LoRAsでカスタマイズ可能
+- **ComfyUI** — ノードグラフ制御
+- **InvokeAI** — 洗練されたローカルUI
+- **Fooocus** — デッドスimple SDXL
 
 ---
 ## 貢献
