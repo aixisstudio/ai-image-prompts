@@ -4,76 +4,74 @@
 
 Галерея промптов для генерации изображений
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+##  ️ Быстрая галерея
 
-## 🖼️ The prompt gallery
+Копируемые подсказки с целевыми моделями. Внесите свой собственный вклад через PR в `prompts.md`.
 
-Copyable prompts with target models. Contribute your own via PR to `prompts.md`.
-
-## 🎨 Styles that work
-| Style | Prompt fragment |
+##Стили, которые работают
+Стиль: Быстрый фрагмент
 |---|---|
-| Photo | `shot on 35mm, golden hour, shallow depth of field, kodak portra` |
-| Illustration | `flat vector illustration, bold shapes, limited palette` |
-| 3D | `octane render, isometric, soft studio lighting` |
-| Pixel | `16-bit pixel art, limited color palette, crisp outlines` |
-| Editorial | `magazine cover layout, dramatic lighting, high contrast` |
+Фото: `shot on 35mm, golden hour, shallow depth of field, kodak portra`
+Иллюстрация: `flat vector illustration, bold shapes, limited palette`
+| 3D | `octane render, isometric, soft studio lighting`
+Пиксель, `16-bit pixel art, limited color palette, crisp outlines`
+Издательство: `magazine cover layout, dramatic lighting, high contrast`
 
-## 🧪 Example prompts
+##  Example Пример подсказок
 
-**Midjourney**
+**Средиземноморье**
 ```
 a lighthouse on a cliff in fog, muted blues and greys, editorial photography, moody --ar 16:9 --v 6
 ```
 
-**SDXL / Flux**
+**SDXL/Flux**
 ```
 minimalist workspace, warm morning light through blinds, a designer's desk with notebook and laptop, 85mm, soft shadows, photorealistic
 ```
 
-**Ideogram (text)**
+**Идеограмма (текст)**
 ```
 neon sign reading "OPEN SOURCE" in cursive, dark wall background, night photography
 ```
 
-## 📐 Tips
-- Aspect ratio params (`--ar`) on Midjourney; for SDXL set dimensions directly
-- Negative prompts (SD): `blurry, watermark, extra fingers, text artifacts`
-- Iterate seeds, not words — small word changes beat wholesale rewrites
+## ps Советы
+- парам соотношений сторон (`--ar`) на Midjourney; для SDXL устанавливаются размеры непосредственно
+Отрицательные подсказки (SD): `blurry, watermark, extra fingers, text artifacts`
+Итерационные семена, а не слова — небольшие изменения слов бьют оптовые переписывания
 
-## 🎨 Style keywords cheat-sheet
+##  Style Ключевые слова чит-лист
 
-| Effect | Keywords |
+| Эффект | Ключевые слова
 |---|---|
-| Photoreal | `photorealistic, 85mm, f/1.8, natural light` |
-| Filmic | `cinematic still, anamorphic, Kodak Portra` |
-| 3D | `octane render, subsurface scattering, studio HDRI` |
-| Illustrated | `flat vector, limited palette, editorial illustration` |
-| Vintage | `1970s photograph, film grain, faded colors` |
+Оригинальное название: `photorealistic, 85mm, f/1.8, natural light`
+Оригинальное название: `cinematic still, anamorphic, Kodak Portra`
+| 3D | `octane render, subsurface scattering, studio HDRI`
+Изображение: `flat vector, limited palette, editorial illustration`
+| Винтаж | `1970s photograph, film grain, faded colors`
 
-## ⚙️ Midjourney params
+##  ️ Мидджори парамс
 
-| Param | Does |
+[Перенаправлено с Dos]
 |---|---|
-| `--ar 16:9` | Aspect ratio |
-| `--stylize 250` | Artistic freedom (0-1000) |
-| `--chaos 30` | Variation between grid |
-| `--no text, watermark` | Negative prompt |
-| `--style raw` | Less MJ-opinionated |
-| `--cref [url]` | Character reference |
-| `--sref [url]` | Style reference |
+| `--ar 16:9` | Соотношение сторон |
+`--stylize 250` - художественная свобода (0-1000)
+| `--chaos 30` | Изменение между сетками |
+| `--no text, watermark` | Отрицательная подсказка |
+↑ `--style raw` | Less MJ-opinionated
+| `--cref [url]` | Характеристика
+| `--sref [url]` | Ссылка на стиль
 
-## 🖼️ Composition vocab
+##  ️ Состав вокаба
 
 `rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour` · `chiaroscuro`
 
-## 🧩 Tools
+## s Инструменты
 
-- **Flux** — open weights, best typography
-- **SDXL/SD3.5** — customizable via LoRAs
-- **ComfyUI** — node-graph control
-- **InvokeAI** — polished local UI
-- **Fooocus** — dead-simple SDXL
+**Flux** — открытые веса, лучшая типография
+**SDXL/SD3.5** — настраивается с помощью LoRA
+- **ComfyUI** - управление узлом
+**InvokeAI** — полированный локальный интерфейс
+**Fooocus** — SDXL
 
 ---
 ## Участие
