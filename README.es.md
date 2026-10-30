@@ -4,24 +4,22 @@
 
 Galería de prompts de imagen con resultados
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
+## 🖼י La galería rápida
 
-## 🖼️ The prompt gallery
+Impulsivos con modelos de destino. Gentileza de su propia vía PR a `prompts.md`.
 
-Copyable prompts with target models. Contribute your own via PR to `prompts.md`.
-
-## 🎨 Styles that work
-| Style | Prompt fragment |
+## Los estilos que funcionan
+Silencioso estilo
 |---|---|
-| Photo | `shot on 35mm, golden hour, shallow depth of field, kodak portra` |
-| Illustration | `flat vector illustration, bold shapes, limited palette` |
-| 3D | `octane render, isometric, soft studio lighting` |
-| Pixel | `16-bit pixel art, limited color palette, crisp outlines` |
-| Editorial | `magazine cover layout, dramatic lighting, high contrast` |
+Silencios en la foto
+Silencio Silencio
+Silencio Silencio Silencio Silencio
+Silencio Pixel
+Silencio Editorial Silencio `magazine cover layout, dramatic lighting, high contrast`
 
-## 🧪 Example prompts
+## 🧪 Ejemplos
 
-**Midjourney**
+*Midjourney*
 ```
 a lighthouse on a cliff in fog, muted blues and greys, editorial photography, moody --ar 16:9 --v 6
 ```
@@ -31,49 +29,49 @@ a lighthouse on a cliff in fog, muted blues and greys, editorial photography, mo
 minimalist workspace, warm morning light through blinds, a designer's desk with notebook and laptop, 85mm, soft shadows, photorealistic
 ```
 
-**Ideogram (text)**
+**Ideograma (texto)**
 ```
 neon sign reading "OPEN SOURCE" in cursive, dark wall background, night photography
 ```
 
 ## 📐 Tips
-- Aspect ratio params (`--ar`) on Midjourney; for SDXL set dimensions directly
-- Negative prompts (SD): `blurry, watermark, extra fingers, text artifacts`
-- Iterate seeds, not words — small word changes beat wholesale rewrites
+- Parámetros de relación de aspecto (`--ar`) en Midjourney; para las dimensiones de conjunto SDXL directamente
+- Introducciones negativas (SD): `blurry, watermark, extra fingers, text artifacts`
+- Semillas de tetrato, no palabras - pequeños cambios de palabras golpean las reescrituras al por mayor
 
-## 🎨 Style keywords cheat-sheet
+♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪♪
 
-| Effect | Keywords |
+Efecto permanente
 |---|---|
-| Photoreal | `photorealistic, 85mm, f/1.8, natural light` |
-| Filmic | `cinematic still, anamorphic, Kodak Portra` |
-| 3D | `octane render, subsurface scattering, studio HDRI` |
-| Illustrated | `flat vector, limited palette, editorial illustration` |
-| Vintage | `1970s photograph, film grain, faded colors` |
+Silencio Photoreal Silencio `photorealistic, 85mm, f/1.8, natural light`
+Silencio Cineico Silencio `cinematic still, anamorphic, Kodak Portra`
+Silencio Silencio Silencio Silencio
+Silencio Illustrated Silencio `flat vector, limited palette, editorial illustration`
+← Vintage Silencio `1970s photograph, film grain, faded colors`
 
-## ⚙️ Midjourney params
+## ⚙י Midjourney params
 
-| Param | Does |
+Silencio Silencio Silencio
 |---|---|
-| `--ar 16:9` | Aspect ratio |
-| `--stylize 250` | Artistic freedom (0-1000) |
-| `--chaos 30` | Variation between grid |
-| `--no text, watermark` | Negative prompt |
-| `--style raw` | Less MJ-opinionated |
-| `--cref [url]` | Character reference |
-| `--sref [url]` | Style reference |
+Silencio `--ar 16:9`
+Silencio `--stylize 250` Silencio libertad artística (0-1000)
+Silencio `--chaos 30`
+Silencio `--no text, watermark`
+Silencio `--style raw`
+Silencio `--cref [url]`
+Silencio `--sref [url]`
 
-## 🖼️ Composition vocab
+Composition vocab
 
-`rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour` · `chiaroscuro`
+`rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour`
 
-## 🧩 Tools
+Herramientas
 
-- **Flux** — open weights, best typography
-- **SDXL/SD3.5** — customizable via LoRAs
-- **ComfyUI** — node-graph control
-- **InvokeAI** — polished local UI
-- **Fooocus** — dead-simple SDXL
+- **Flux** - pesos abiertos, mejor tipografía
+**SDXL/SD3.5** — personalizable via LoRAs
+- **ComfyUI** - control node-graph
+- **InvokeAI** - UI local pulida
+- **Fooocus** - SDXL sin mancha
 
 ---
 ## Contribuir
