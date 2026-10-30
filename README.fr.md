@@ -4,22 +4,20 @@
 
 Galerie de prompts image avec résultats — Midjourney, SD, Flux
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+La galerie rapide
 
-## 🖼️ The prompt gallery
+Invitations à copier avec des modèles cibles. Contribuez le vôtre via PR à `prompts.md`.
 
-Copyable prompts with target models. Contribute your own via PR to `prompts.md`.
-
-## 🎨 Styles that work
-| Style | Prompt fragment |
+Styles qui fonctionnent
+Style
 |---|---|
-| Photo | `shot on 35mm, golden hour, shallow depth of field, kodak portra` |
-| Illustration | `flat vector illustration, bold shapes, limited palette` |
-| 3D | `octane render, isometric, soft studio lighting` |
-| Pixel | `16-bit pixel art, limited color palette, crisp outlines` |
-| Editorial | `magazine cover layout, dramatic lighting, high contrast` |
+Photo: `shot on 35mm, golden hour, shallow depth of field, kodak portra`
+Illustration
+CdPH0X
+Pixel : `16-bit pixel art, limited color palette, crisp outlines`
+Éditorial
 
-## 🧪 Example prompts
+Exemples d'invites
 
 **Midjourney**
 ```
@@ -31,49 +29,49 @@ a lighthouse on a cliff in fog, muted blues and greys, editorial photography, mo
 minimalist workspace, warm morning light through blinds, a designer's desk with notebook and laptop, 85mm, soft shadows, photorealistic
 ```
 
-**Ideogram (text)**
+**Idéogramme (texte)**
 ```
 neon sign reading "OPEN SOURCE" in cursive, dark wall background, night photography
 ```
 
-## 📐 Tips
-- Aspect ratio params (`--ar`) on Midjourney; for SDXL set dimensions directly
-- Negative prompts (SD): `blurry, watermark, extra fingers, text artifacts`
-- Iterate seeds, not words — small word changes beat wholesale rewrites
+Conseils
+- Params de rapport d'aspect (`--ar`) sur Midjourney; pour les dimensions de réglage SDXL directement
+- Invitations négatives (SD) : `blurry, watermark, extra fingers, text artifacts`
+- Itérer les graines, pas les mots — petits changements de mots battre les réécritures de gros
 
-## 🎨 Style keywords cheat-sheet
+Style mots clés triche-feuille
 
-| Effect | Keywords |
+Mots clés
 |---|---|
-| Photoreal | `photorealistic, 85mm, f/1.8, natural light` |
-| Filmic | `cinematic still, anamorphic, Kodak Portra` |
-| 3D | `octane render, subsurface scattering, studio HDRI` |
-| Illustrated | `flat vector, limited palette, editorial illustration` |
-| Vintage | `1970s photograph, film grain, faded colors` |
+Photoréalistes `photorealistic, 85mm, f/1.8, natural light`
+Filmique
+CdPH0X
+Illustré
+Vintage
 
-## ⚙️ Midjourney params
+Params de Midjourney
 
-| Param | Does |
+Le param, ça fait quoi ?
 |---|---|
-| `--ar 16:9` | Aspect ratio |
-| `--stylize 250` | Artistic freedom (0-1000) |
-| `--chaos 30` | Variation between grid |
-| `--no text, watermark` | Negative prompt |
-| `--style raw` | Less MJ-opinionated |
-| `--cref [url]` | Character reference |
-| `--sref [url]` | Style reference |
+Taux d'aspect
+`--stylize 250`: Liberté artistique (0-1000)
+`--chaos 30`
+`--no text, watermark`
+Moins d'opinions MJ
+Référence des caractères
+`--sref [url]`
 
-## 🖼️ Composition vocab
+Composition Vocab
 
 `rule of thirds` · `negative space` · `leading lines` · `dutch angle` · `low-angle hero shot` · `macro detail` · `rim lighting` · `golden hour` · `blue hour` · `chiaroscuro`
 
-## 🧩 Tools
+Outils
 
-- **Flux** — open weights, best typography
-- **SDXL/SD3.5** — customizable via LoRAs
-- **ComfyUI** — node-graph control
-- **InvokeAI** — polished local UI
-- **Fooocus** — dead-simple SDXL
+- ** Flux** — poids ouverts, meilleure typographie
+- **SDXL/SD3.5** — personnalisable via LoRAs
+- **ComfyUI** — contrôle des nœuds
+- **InvokeAI** — UI locale polie
+- **Fooocus** — simple et mort SDXL
 
 ---
 ## Contribuer
